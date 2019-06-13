@@ -1,0 +1,69 @@
+/*Los sistemas de grillas nos ayudan a configurar el espacio y 
+tamaño de nuestros elementos. En este caso, vamos a separar nuestra 
+grilla en 12 posibles tamaños, así que debemos realizar la operación 100/12 
+y multiplicar el resultado por cada posible tamaño de nuestra grilla.*/
+
+/*---------espacio para configurar el tamaño de las columnas----*/
+.container{/*delimita el espacio que va a ocupar la grilla */
+max-width: 900px;/*es el espacio maximo que va a ocupar el grid*/
+margin:auto;/*alinea el contenido hacia el centro*/
+}
+.row{/*es el espacio donde se ubican las columnas*/
+    display: flex/*alíneo los objetos que contiene el row de forma vertical*/
+}/*para esta seccion, se va a dividir el row en 12 columnas de distinto ancho*/
+.col-1{
+    width: 8.3333333%;
+}
+.col-2{
+    width: 16.666666%;
+}
+.col-3{
+    width: 24.999999%;
+}
+.col-4{
+    width: 33.333332%;
+}
+.col-5{
+    width: 41.666665%;
+}
+.col-6{
+    width: 49.999998%;
+}
+.col-7{
+    width: 58.3333331%;
+}
+.col-8{
+    width: 66.666664%;
+}
+.col-9{
+    width: 74.999997%;
+}
+.col-10{
+    width: 83.3333333%;
+}
+.col-11{
+    width: 91.999999%;
+}
+.col-12{
+    width: 100%;
+}
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    padding:10px;/*con este padding se le da el espaciado entre columnas para que no se 
+                    pegue el texto*/
+}
+.col-1 img,.col-2 img,.col-3 img,.col-4 img,.col-5 img,.col-6 img,.col-7 img,.col-8 img,.col-9 img,.col-10 img,.col-11 img,.col-12 img{
+    width: 100%;  }
+
+@media(max-width:600px  ){
+    .container{
+        padding: 10px;
+    }
+    .row{
+        display: inline;    
+        padding: 10px;
+      }       
+      .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+        width: 100%; 
+        padding: 0px;
+       }
+}  

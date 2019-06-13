@@ -1,0 +1,139 @@
+/*elementos del html*/
+html,body{
+    padding: 0px;/*alínea el texto que se encuentra en Body al borde izquierdo de la pantalla*/
+    margin: 0px;/*elimina la margen del contenido*/
+    font-size: 20px;
+    font-family: Arial Narrow;
+}
+nav{
+    display:flex;/*Pasa los elementos de vertical a Horizontal*/
+    background-color: green;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+nav li{
+    padding-left: 20px;
+    list-style: none;
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+
+/*---------Main Section*/
+.main_section{
+    padding: 20%;
+    text-align: center;
+    
+}
+.Products{
+    background-image: url("../imagenes/curve.png");
+    height: 100px;
+    background-size:cover;
+    background-position: center top;
+    padding: 20%;/*modifica el tamaño de los objetos del producto, si es mayor mas pequeño se hace*/
+    display: flex; 
+}
+
+.product{
+    padding: 10px;
+    margin-top: -300px;/*da alineacion a los objetos del main*/ 
+   
+}
+.product .content{
+    background-color: lightcyan ;
+    padding: 20px;
+    box-shadow: 0 0 2px black;
+}
+.main_btn{
+    padding: 17px;
+    width: 100%;
+    background-color: #0a9b0a;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+}
+.main_btn:hover{
+    background-color:greenyellow;
+}
+.imag_p{
+    text-align: center;
+}
+/*--inicio Beneficios---*/
+.Beneficios{
+    padding: 10%;
+    display: flex ;
+}
+.Beneficio{
+    text-align: center;
+    padding: 10px;
+    
+}
+.Beneficio img{
+    max-height: 100px;
+}
+.cont_ben{
+    box-shadow: 0 0 3px black;
+}
+/*-----comentarios----------*/
+
+.Mensiones{
+    display: flex;
+    padding: 5%;
+    
+}
+.mension img{
+    width: 100%;
+}
+.mension{
+    padding: 30px;
+    text-align: center;   
+}
+.cont_men{
+    box-shadow: 0 0 2px blue;
+}
+/*----------footer------------*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white; 
+    padding: 10px;
+    font-size: 20px;
+}
+/*------prod-----*/
+.img_prod{
+    max-width: 100px;
+}
+/*----------venta-------*/
+
+.modulo_pago{
+
+    background-color:white;
+    box-shadow:0 0 2px black;
+    padding: 10px;
+}
+.modulo_pago_images{
+    max-width: 150px;
+    text-align: center;
+    width:100%;
+    margin: auto;
+  }
+  .data{
+      margin-top: 10px;
+      width:100%;
+      height: 30px;
+      border-radius: 5px;
+      box-sizing: border-box;/*hace que los elementos respeten el margen*/
+  }
+  label{
+      font-size: 20px;/*tamaño de fuente de los label*/
+  }
+  .modulo_pago .main_btn{
+      margin-top: 10px;
+      
+  }

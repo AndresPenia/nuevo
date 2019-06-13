@@ -1,0 +1,9 @@
+@media (max-width: 600px){/* ajusta con un ancho de pantalla minimo de 600 pixeles*/
+.Products{
+    display: inherit;/* organiza los elementos de forma vertical*/
+    height:auto;/*ajuste la altura de forma automatica*/
+}
+.product{
+    margin-top: auto;/* el espaciado entre los objetos producto se hace automatico*/
+}
+}

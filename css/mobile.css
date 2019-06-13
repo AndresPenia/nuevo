@@ -1,0 +1,30 @@
+@media (max-width: 600px){
+    /*body{
+    background: black;
+
+}*/
+.Products{
+    display: inherit; /*organiza los elementos de forma vertical*/
+    height: auto; /* aplica altura automatica a los elementos de products*/
+    }
+.product{
+    margin-top: auto;/*organiza las margenes de los elementos de produc de forma automatica*/
+    }
+.main_section{
+    padding: 4%;/*disminuye el padding del texto del main*/
+    }
+.Beneficios{
+    display: inherit;
+    height: auto;
+    }
+.Beneficio{
+    margin-top: auto;
+    }
+.Mensiones{
+    display: inherit;
+    height: auto;
+    }
+.mension{
+    margin-top: auto;
+    }
+}

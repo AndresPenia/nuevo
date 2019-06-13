@@ -1,0 +1,48 @@
+html,body{
+    padding: 0px; /* alínea el texto del body al borde de la pantalla*/
+    margin: 0px; /* elimina el margen del contenido de body*/
+    font-size: 20px;
+    font-family: Helvetica;
+}
+nav{
+    display: flex;/*pasa los elementos de vertical a horizontal*/
+    background-color: green;
+    padding: 10px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;/*alinea los elementos del nav al centro*/
+}
+nav ul {
+    display: flex;
+}
+nav li{
+    padding-right: 20px;
+   /* list-style: none;*//*elimina las viñetas que tiene el texto en lista*/
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+nav li a:hover{/*hover */
+color:white;
+}
+/*---------------------Main Section*/
+.main_section{
+padding: 20%;/**/
+text-align: center;
+}
+.products{
+    background-image: url("../imagenes/curve.png");/*con ../ salgo de la carpeta en la que me encuentro*/
+    height:100px;/*disminuir la altura*/
+    background-size: cover;/*le indica al objeto que ocupe el tamaño de toda la ventana*/
+    background-position: center top;/*indica la alineación del objeto dentro de la pantalla*/
+    padding: 20%;/*hacerlo con px para ver la diferencia*/
+    display: flex;
+}
+.product{
+    padding: 10px;/*divide los elementos que se encuentren dentro de product*/
+}
+.product .content{
+    background-color: white;
+    padding: 20px;
+}
